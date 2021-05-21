@@ -4,7 +4,6 @@ const Form = ({ setData }) => {
     const [username, setUsername] = useState('');
     const [mom, setMom] = useState('');
     const [day, setDay] = useState('');
-
     const date = new Date();
 
     const handleSubmit = e => {
