@@ -13,7 +13,7 @@ const Form = ({ setData }) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <label htmlFor="username-input"></label>           
+            <label htmlFor="username-input">Your Name</label>           
             <input
                 id="username-input"
                 name="username-input"
@@ -24,7 +24,7 @@ const Form = ({ setData }) => {
                 onChange={e => setUsername(e.target.value)}
             />
 
-            <label htmlFor="mom-input"></label>           
+            <label htmlFor="mom-input">Mom's Name</label>           
             <input
                 id="mom-input"
                 name="mom-input"
@@ -35,7 +35,7 @@ const Form = ({ setData }) => {
                 onChange={e => setMom(e.target.value)}
             />
 
-            <label htmlFor="day-input"></label>           
+            <label htmlFor="day-input">Approximately What Day Are You On?</label>           
             <input
                 id="day-input"
                 name="day-input"

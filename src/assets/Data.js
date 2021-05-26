@@ -37,49 +37,49 @@ export const data = {
             "Be supportive."
         ],
         "16": [
-            
+
         ],
         "17": [
-            
+
         ],
         "18": [
-            
+
         ],
         "19": [
-            
+
         ],
         "20": [
-            
+
         ],
         "21": [
-            
+
         ],
         "22": [
-            
+
         ],
         "23": [
-            
+
         ],
         "24": [
-            
+
         ],
         "25": [
-            
+
         ],
         "26": [
-            
+
         ],
         "27": [
-            
+
         ],
         "28": [
-            
+
         ],
         "29": [
-            
+
         ],
         "30": [
-            
+
         ],
         "31" : [
 
@@ -115,15 +115,24 @@ export const data = {
     "month-2": {
         "baby": {
             "development": [
-            
+                "face",
+                "eye",
+                "hand",
+                "foot",
+                "neural tube",
+                "heart that is beginning to beat"
             ],
             "size" : [
-
+                "jelly bean"
             ]
         },
         "mom": {
             "stats": [
-
+                "breast tenderness",
+                "breast enlargement",
+                "frequent urination",
+                "potential nausea",
+                "fatigue"
             ]
         },        
         "41" : [
@@ -220,15 +229,27 @@ export const data = {
     "month-3": {
         "baby": {
             "development": [
-            
+                "mouth",
+                "nose",
+                "ears",
+                "arms",
+                "toes",
+                "fingers",
+                "bones",
+                "intestines",
+                "liver",
+                "kidneys",
+                "bladder"
             ],
             "size" : [
-
+                "golf ball"
             ]
         },
         "mom": {
             "stats": [
-
+                "first trimester symptoms engaged",
+                "mood swings",
+                "stress and fatigue"
             ]
         },
         "71" : [
@@ -325,7 +346,7 @@ export const data = {
     "month-4": {
         "baby": {
             "development": [
-            
+                
             ],
             "size" : [
 

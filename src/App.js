@@ -7,8 +7,13 @@ function App() {
 	const [date, setDate] = useState(new Date());
 
 	useEffect(() => {
-			window.localStorage.setItem('280-days-data', JSON.stringify(data));
-		}, [data]);
+		window.localStorage.setItem('280-days-data', JSON.stringify(data));
+	}, [data]);
+
+	useEffect(() => {
+		
+
+	}, [date]);
 
 	return (
 		<div className="App">
